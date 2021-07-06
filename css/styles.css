@@ -1,0 +1,155 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffffff;
+  }
+
+/** HEADER **/
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffffff;
+  }
+
+/** HEADER **/
+#header-nav {
+  background-color: #6c757d;
+  border-radius: 0;
+  border: 0;
+}
+#logo-img {
+  background: url('../images/logo-img.jpg') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+.navbar-text {
+	padding-top: 25px;
+	margin: 0 auto 0 0;
+	
+}
+.navbar-text h1 { /* name */
+  font-family: serif;
+  color: #343a40;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  
+}
+.navbar-text a {
+	text-decoration: none;
+}
+
+.navbar-text p { /* Section name */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-text p span { /*Section */
+  vertical-align: middle;
+}
+.navbar-text p img { /* Section */
+    height: 30px;
+  }
+ .navbar-nav {
+  color: #343a40;
+  text-align: center;
+  font-size: 1.0em;
+   
+}
+hr {
+	margin: 0;
+	color: #6c757d;
+}
+	
+.navbar-toggler {
+  border: 3px solid #6c757d;
+}
+.navbar-collapse {
+	margin: -15px;
+}
+#main-content, .row {
+	color: #212529;
+	width: 
+}
+.menu-item-details{
+	margin: 30px;
+	text-align:justify;
+}
+.menu-item-title {
+	text-align: center;
+	margin-top: 30px;
+}
+ h2 {
+ text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-shadow: .5px .5px .5px #222;
+  margin-top: 10px;
+  margin-bottom: 0;
+  
+ }
+ 
+	 
+	
+/* END HEADER */
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/logo-img medium.jpg') no-repeat;
+	width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	 /* Header */
+  .navbar-text {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-text h1 { /*Name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-text p { /*Siction name */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-text p img { /* Section */
+    height: 20px;
+  }
+  h2 {
+	  padding-top: 10px;
+    font-size: 4vw; /* 1vw = 1% of viewport width */
+	}
+	#toback {
+	color: #0d6efd;
+	text-align: right;
+	font-size: .6em;
+	margin:-40px 30px 0 0; 
+ }
